@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from "./Header.js"
-import Footer from "./Footer.js"
 const Standings = () => {
   const standingsData = [
     { pos: 1, team: 'AFGHANISTAN', played: 0, won: 0, lost: 0, nr: 0, tied: 0, netRr: '-', points: 0 },

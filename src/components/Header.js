@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import t201 from '../media/t201.svg';
 
 const Header = () => {
@@ -25,7 +26,7 @@ const Header = () => {
         <ul className='flex pl-6 border-l-2 border-slate-200'>
           <li className='px-2'>ICC HOME</li>
           <li className='px-2'>MATCHES</li>
-          <li className='px-2'>STANDINGS</li>
+          <li className='px-2'><Link to="/standings">STANDINGS</Link></li>
           <li className='px-2'>NEWS</li>
           <li className='px-2'>VIDEOS</li>
           <li className='px-2'>FAN PASSPORT</li>
@@ -46,7 +47,7 @@ const Header = () => {
           <svg stroke="#ffffff" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
           </svg>
-          <p className='px-1'>SIGN IN</p>
+          <p className='px-1'><Link to="/signup">SIGN IN</Link></p>
         </div>
       </div>
 
@@ -68,7 +69,7 @@ const Header = () => {
               <ul className='pt-8 pl-6 text-white font-bold text-2xl '>
                 <li className='px-2 py-2'>HOME</li>
                 <li className='px-2 py-2'>MATCHES</li>
-                <li className='px-2 py-2'>STANDINGS</li>
+                <li className='px-2 py-2'><Link to="/standings">STANDINGS</Link></li>
                 <li className='px-2 py-2'>VIDEOS</li>
                 <li className='px-2 py-2'>NEWS</li>
                 <li className='px-2 py-2'>TEAMS</li>
