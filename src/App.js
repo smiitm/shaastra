@@ -4,6 +4,7 @@ import Highlights from "./components/Highlights.js"
 import Footer from "./components/Footer.js"
 import Standings from "./components/Standings.js"
 import Signin from "./components/Signin.js"
+import SearchBar from "./components/Searchbar.js"
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Router basename='/shaastra'>
       <div className='relative'>
         <Header className='absolute z-10' />
+        <SearchBar />
         <Routes>
           <Route path="/" element={<Highlights />} />
           <Route path="/standings" element={<Standings />} />
