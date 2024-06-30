@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shaastra/static/css/main.1613af09.css",
-    "main.js": "/shaastra/static/js/main.c752efad.js",
+    "main.css": "/shaastra/static/css/main.cf0d6d34.css",
+    "main.js": "/shaastra/static/js/main.2feab0ee.js",
     "static/js/453.2867b405.chunk.js": "/shaastra/static/js/453.2867b405.chunk.js",
     "static/media/t201.svg": "/shaastra/static/media/t201.ab7647efed5100c8b5aa64d41fcb4595.svg",
     "index.html": "/shaastra/index.html",
-    "main.1613af09.css.map": "/shaastra/static/css/main.1613af09.css.map",
-    "main.c752efad.js.map": "/shaastra/static/js/main.c752efad.js.map",
+    "main.cf0d6d34.css.map": "/shaastra/static/css/main.cf0d6d34.css.map",
+    "main.2feab0ee.js.map": "/shaastra/static/js/main.2feab0ee.js.map",
     "453.2867b405.chunk.js.map": "/shaastra/static/js/453.2867b405.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1613af09.css",
-    "static/js/main.c752efad.js"
+    "static/css/main.cf0d6d34.css",
+    "static/js/main.2feab0ee.js"
   ]
 }
